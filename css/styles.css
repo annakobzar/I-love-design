@@ -126,8 +126,9 @@ main {
 .about .about_description {
   margin: 0 auto;
   margin-bottom: 125px;
-  width: 860px;
+  /* width: 860px; */
   font-weight: 300;
+  padding: 0 25px;
 }
 
 .skills .skills_title {
@@ -150,4 +151,5 @@ main {
   line-height: 30px;
   color: #a8a9aa;
   text-align: left;
+  padding-bottom: 95px;
 }
