@@ -42,34 +42,28 @@ html {
 body {
   font: 30px var(--font);
   color: var(--color-grey);
-  /* color: var(--color-grey); */
 }
 
 .header {
-  /* min-height: 100vh; */
   height: 100vh;
   background: url(../images/header.jpg) no-repeat top center;
   background-size: cover;
   text-align: center;
-  /* padding-top: 80px; */
   padding: 10vh 0 50vh;
   color: #fff;
-  /* padding-bottom: 50px; */
 }
 
 .logo {
-  /* margin-top: 80px; */
-  /* margin-bottom: 180px; */
   margin-bottom: 15vh;
 }
 
-.logo img {
+.logo_link {
+  transition: all 0.5s;
   height: 135px;
   border-radius: 50%;
-  transition: all 0.5s;
 }
 
-.logo img:hover {
+.logo_link:hover {
   background-color: var(--color-white-light);
 }
 
@@ -77,7 +71,6 @@ body {
   font-size: 80px;
   font-weight: 700;
   text-transform: uppercase;
-  /* margin-bottom: 55px; */
   margin-bottom: 6vh;
 }
 
@@ -86,7 +79,6 @@ body {
   width: 455px;
   font-size: 18px;
   line-height: 30px;
-  /* margin-bottom: 185px; */
   margin-bottom: 15vh;
 }
 
@@ -95,22 +87,15 @@ body {
   width: 35px;
   height: 35px;
   color: #fff;
-  font-size: 12px;
   text-decoration: none;
   border: 2px solid #fff;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
   transition: all 0.5s;
 }
 
 .header .down:hover {
   background-color: var(--color-white-light);
-}
-
-.header .down img {
-  display: block;
 }
 
 main {
@@ -125,15 +110,16 @@ main {
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 130px 0 70px;
+  margin-bottom: 70px;
+  padding-top: 130px;
 }
 
 .about .about_description {
   margin: 0 auto;
   margin-bottom: 125px;
-  /* width: 860px; */
   font-weight: 300;
   padding: 0 25px;
+  line-height: 42px;
 }
 
 .skills .skills_title {
